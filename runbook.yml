@@ -1,5 +1,8 @@
 name : Hello World
 
+attributes :
+  servername : hostname3
+
 tasks :
 - name : copy test file
   action : file
@@ -14,16 +17,9 @@ tasks :
   commands:
   - echo "hi"
 
-- name : echo twice
-  action : commands
-  commands:
-  - echo "hi 2"
-  - echo "hi 3"
+- name : test template
+  action : template
+  source : test.txt
+  destination : /tmp/test_template.txt
+  
 
-- name : random file
-  action : file
-  source : files/filename
-  destination : /temp/filename
-
-attributes :
-  servername : hostname3
