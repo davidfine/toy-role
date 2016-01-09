@@ -5,8 +5,8 @@ tasks :
   action : file
   source : apache/hello.conf
   destination : /tmp/hello.conf
-  owner : dfine
-  group : staff
+  owner : root
+  group : root
   mode : 0750
 
 - name : run echo.
