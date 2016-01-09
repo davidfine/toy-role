@@ -3,8 +3,8 @@ name : Hello World
 tasks :
 - name : copy test file
   action : file
-  source : testfile.txt
-  destination : /tmp/README.test
+  source : apache/hello.conf
+  destination : /tmp/hello.conf
   owner : dfine
   group : staff
   mode : 0750
