@@ -3,7 +3,7 @@ name : Hello World
 tasks :
 - name : copy test file
   action : file
-  source : files/testfile.txt
+  source : testfile.txt
   destination : /tmp/README.test
   owner : dfine
   group : staff
