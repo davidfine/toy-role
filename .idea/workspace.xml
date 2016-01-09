@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d14e8263-9c06-40f2-ac70-342afbbad337" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runbook.yml" afterPath="$PROJECT_DIR$/runbook.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/test.txt" afterPath="$PROJECT_DIR$/templates/test.txt" />
     </list>
     <ignored path="toy-role.iws" />
@@ -48,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/templates/test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -382,7 +381,7 @@
     <entry file="file://$PROJECT_DIR$/templates/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
