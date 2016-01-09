@@ -3,7 +3,7 @@ name : Hello World
 tasks :
 - name : copy test file
   action : file
-  source : /src/toy-config/README.md
+  source : /
   destination : /tmp/README.test
   owner : dfine
   group : staff
