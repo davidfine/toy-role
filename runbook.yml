@@ -10,6 +10,14 @@ attributes :
 
 tasks :
 
+- name : configure apache2
+  action : commands
+  commands:
+  - echo start test
+  - echo start test
+  - adflkjsa
+  - echo end test
+
 - name : apt packages
   action : commands
   commands:

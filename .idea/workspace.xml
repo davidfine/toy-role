@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d14e8263-9c06-40f2-ac70-342afbbad337" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/helloworld.conf" afterPath="$PROJECT_DIR$/templates/helloworld.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runbook.yml" afterPath="$PROJECT_DIR$/runbook.yml" />
     </list>
     <ignored path="toy-role.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="runbook.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="runbook.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runbook.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.875">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.24464832">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helloworld.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helloworld.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/helloworld.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1993865">
+            <state vertical-scroll-proportion="-7.2222223">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/templates/test.txt" />
         <option value="$PROJECT_DIR$/files/apache/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/runbook.yml" />
         <option value="$PROJECT_DIR$/templates/helloworld.conf" />
+        <option value="$PROJECT_DIR$/runbook.yml" />
       </list>
     </option>
   </component>
@@ -379,18 +379,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runbook.yml">
+    <entry file="file://$PROJECT_DIR$/templates/helloworld.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.875">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state vertical-scroll-proportion="-7.2222223">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/helloworld.conf">
+    <entry file="file://$PROJECT_DIR$/runbook.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1993865">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24464832">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
