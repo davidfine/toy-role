@@ -1,25 +1,39 @@
-name : Hello World
+runbook_name : Hello World PHP site
+
+comments : Installs apache2 and a static PHP page
 
 attributes :
-  servername : hostname3
+  apache :
+    http_port : 80
+    ServerName : helloworld.com
+    DocumentRoot : /var/www/html
 
 tasks :
-- name : copy test file
-  action : file
-  source : apache/hello.conf
-  destination : /tmp/hello.conf
-  owner : root
-  group : root
-  mode : 0750
 
-- name : run echo.
+- name : apt packages
   action : commands
   commands:
-  - echo "hi"
+  - apt-get update
+  - apt-get install -y apache2 apache2-mpm-prefork libapache2-mod-php5
 
-- name : test template
+- name : copy website files
+  action : file
+  source : apache/index.php
+  destination : /var/www/http/index.php
+  owner : root
+  group : www-data
+  mode : 0750
+
+
+- name : apache2 conf template
   action : template
-  source : test.txt
-  destination : /tmp/test_template.txt
+  source : helloworld.conf
+  destination : /etc/apache2/sites-available/helloworld.conf
 
 
+- name : configure apache2
+  action : commands
+  commands:
+  - a2dissite 000-default.conf
+  - a2ensite helloworld.conf
+  - apachectl restart
