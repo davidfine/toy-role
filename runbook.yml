@@ -19,7 +19,7 @@ tasks :
 - name : copy website files
   action : file
   source : apache/index.php
-  destination : /var/www/http/index.php
+  destination : /var/www/html/index.php
   owner : root
   group : www-data
   mode : 0750
