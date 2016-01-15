@@ -5,14 +5,17 @@ Files:
 runbook.yml - required file. Describes tasks to configure a server. Must contain the
 following top level fields:
     runbook_name : Descriptive name.
+    
     comments : Can be empty
+    
     attributes : Variables for template substitution. If this were more than a code challenge, it would
             be possible to override the defaults through various means.
+            
     tasks : List of actions to configure the role. Executed serially from top to bottom. Actions include
 
 
 Here is an example role file:
-
+'''
 runbook_name : Descriptive name
 
 comments : Optional comments
@@ -44,3 +47,4 @@ tasks :
   source : telplate file relative to templates directory at top level of repo
   destination : Full path and filename on target system
 
+'''
