@@ -15,7 +15,8 @@ following top level fields:
 
 
 Here is an example role file:
-'''
+
+```
 runbook_name : Descriptive name
 
 comments : Optional comments
@@ -47,4 +48,4 @@ tasks :
   source : telplate file relative to templates directory at top level of repo
   destination : Full path and filename on target system
 
-'''
+```
